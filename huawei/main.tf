@@ -138,7 +138,8 @@ resource "huaweicloud_compute_instance" "ctf_instance" {
   # Use local file for testing, GitHub for production
   user_data = var.use_local_setup ? base64encode(file("${path.module}/../ctf_setup.sh")) : base64encode(<<-EOF
     #!/bin/bash
-    curl -fsSL https://raw.githubusercontent.com/learntocloud/linux-ctfs/main/ctf_setup.sh | bash
+    # curl -fsSL https://raw.githubusercontent.com/learntocloud/linux-ctfs/main/ctf_setup.sh | bash
+    curl -fsSL https://raw.githubusercontent.com/dethan3/linux-ctfs/huawei/ctf_setup.sh | bash
   EOF
   )
 
