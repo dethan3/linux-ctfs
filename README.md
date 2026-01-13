@@ -41,6 +41,7 @@ Deploy your CTF lab using your preferred cloud provider:
 | AWS | ~$0.01 (Free Tier eligible) | [AWS Setup](./aws/README.md) |
 | Azure | ~$0.05 | [Azure Setup](./azure/README.md) |
 | GCP | ~$0.03 | [GCP Setup](./gcp/README.md) |
+| Huawei Cloud | ~¥0.10 | [Huawei Cloud Setup](./huawei/README.md) |
 
 ## Tips
 
